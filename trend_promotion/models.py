@@ -14,7 +14,7 @@ class User(models.Model):
 
 class FlightStatus(models.Model):
     pnr= models.CharField(max_length=50)
-    flight_username = models.ForeignKey(User, on_delete=models.CASCADE)
+    user_name = models.ForeignKey(User, on_delete=models.CASCADE)
     departure_time = models.DateTimeField(auto_now=False, auto_now_add=False)
     arrival_time = models.DateTimeField(auto_now=False, auto_now_add=False)
     city_boarded=models.CharField(max_length=50)
@@ -32,13 +32,13 @@ class Flight(models.Model):
     update=models.CharField(max_length=50)
 
 class Preferences(models.Model):
-    user=models.ForeignKey(User, on_delete=models.CASCADE)
-    flight_pnr=models.ForeignKey(FlightStatus, on_delete=models.CASCADE)
-    cat1=models.ForeignKey(User, on_delete=models.CASCADE)
-    cat2=models.ForeignKey(User, on_delete=models.CASCADE)
-    cat3=models.ForeignKey(User, on_delete=models.CASCADE)
-    cat4=models.ForeignKey(User, on_delete=models.CASCADE)
-    cat5=models.ForeignKey(User, on_delete=models.CASCADE)
+    user_name=models.ForeignKey(User, on_delete=models.CASCADE)
+    pnr=models.ForeignKey(FlightStatus, on_delete=models.CASCADE)
+    cat1=models.CharField(max_length=50)
+    cat2=models.CharField(max_length=50)
+    cat3=models.CharField(max_length=50)
+    cat4=models.CharField(max_length=50)
+    cat5=models.CharField(max_length=50)
 
 
 class Complaint(models.Model):
