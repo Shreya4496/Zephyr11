@@ -15,12 +15,11 @@ p { margin : 0; }
     <script type="text/javascript">
 
 
-
         function geoFindMe() {
-  var output = document.getElementById("out");
 
-  if (!navigator.geolocation){
-    output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+if (confirm("Press a button!") == true) {
+        if (!navigator.geolocation){
+
     return;
   }
 
@@ -29,29 +28,28 @@ p { margin : 0; }
     var longitude = position.coords.longitude;
     var data = {lat:latitude, long:longitude};
     $.post('{% url 'trend_promotion:store_loc' %}',data);
-    output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
-
-    var img = new Image();
-    img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=13&size=300x300&sensor=false";
-
-    output.appendChild(img);
   }
 
 
 
   function error() {
-    output.innerHTML = "Unable to retrieve your location";
+
   }
 
-  output.innerHTML = "<p>Locating…</p>";
+navigator.geolocation.getCurrentPosition(success, error);
+  setInterval(geoFindMe, 60000)
 
-  navigator.geolocation.getCurrentPosition(success, error);
+    } else {
+
+    }
+
 }
 
     </script>
 </head>
 <body>
-<p><button onclick="geoFindMe()">Show my location</button></p>
+
+<p><button onclick="geoFindMe()">Please click the following button to allow to track my location</button></p>
 <div id="out"></div>
 </body>
 </html>
