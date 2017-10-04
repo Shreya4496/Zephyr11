@@ -16,8 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from Homepage.views import HomePage
-
+from Zephyr.views import DashBoard
+from Zephyr.views import LOC
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^homepage/$', HomePage, name='homepage')
+    url(r'^homepage/$', HomePage, name='homepage'),
+url(r'^dashboard/$', DashBoard, name='homepage'),
+url(r'^locpage/$', LOC, name='homepage')
 ]
