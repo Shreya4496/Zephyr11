@@ -47,3 +47,12 @@ class Complaint(models.Model):
     complaint_type = models.CharField(max_length=100)
     complaint_description = models.CharField(max_length=5000)
 
+
+class Location(models.Model):
+    user_name = models.ForeignKey(User, on_delete=models.CASCADE,default=1)
+    linked_pnr = models.ForeignKey(FlightStatus, on_delete=models.CASCADE,default=2)
+    lat = models.DecimalField(max_digits=9, decimal_places=6)
+    long = models.DecimalField(max_digits=9, decimal_places=6)
+
+
+

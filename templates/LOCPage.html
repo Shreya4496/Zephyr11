@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
     <style>body {
@@ -26,7 +27,8 @@ p { margin : 0; }
   function success(position) {
     var latitude  = position.coords.latitude;
     var longitude = position.coords.longitude;
-
+    var data = {lat:latitude, long:longitude};
+    $.post('{% url 'trend_promotion:store_loc' %}',data);
     output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
 
     var img = new Image();
