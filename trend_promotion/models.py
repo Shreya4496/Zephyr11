@@ -23,7 +23,7 @@ class FlightStatus(models.Model):
     update=models.CharField(max_length=50)
 
 class Flight(models.Model):
-    pnr= models.CharField(max_length=50)
+    flightno= models.CharField(max_length=50)
     departure_time=models.DateTimeField(auto_now=False,auto_now_add=False)
     arrival_time=models.DateTimeField(auto_now=False,auto_now_add=False)
     city_boarded=models.CharField(max_length=50)
