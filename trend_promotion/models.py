@@ -13,7 +13,7 @@ class User(models.Model):
     loyality_pts=models.CharField(max_length=50)
 
 class FlightStatus(models.Model):
-    pnr= models.CharField(max_length=50)
+    flightno= models.CharField(max_length=50)
     user_name = models.ForeignKey(User, on_delete=models.CASCADE)
     departure_time = models.DateTimeField(auto_now=False, auto_now_add=False)
     arrival_time = models.DateTimeField(auto_now=False, auto_now_add=False)
@@ -29,7 +29,7 @@ class Flight(models.Model):
     city_boarded=models.CharField(max_length=50)
     city_arrival=models.CharField(max_length=50)
     gateno=models.CharField(max_length=50)
-    update=models.CharField(max_length=50)
+
 
 class Preferences(models.Model):
     user_name=models.ForeignKey(User, on_delete=models.CASCADE)
