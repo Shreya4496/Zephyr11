@@ -13,3 +13,6 @@ def LOC(request):
 
 def Offers(request):
     return render(request, 'offers.html')
+
+def ChatBot(request):
+    return render(request, 'chatbot.html')

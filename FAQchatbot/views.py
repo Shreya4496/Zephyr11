@@ -7,5 +7,6 @@ from django.template import Context, loader
 
 def ChatBot(request):
 
-    return render(request, 'display.html')
+    return render(request, 'chatbot.html')
+
 
