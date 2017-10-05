@@ -2,9 +2,402 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6680c7c8-c5a6-4150-a44d-b88cc14fc8f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/.idea/Zephyr.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Homepage/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/Zephyr/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/chatbot/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/live_update/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/preferences/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/realtime_feedback/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/safety_instructions/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/screenshare/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/demo-page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/examples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/geochart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/global/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/hover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/style1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/style_display.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/theme/gold.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/css/theme/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/404.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/Vistara.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/Vistara1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/b3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/climate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/ftr-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/login.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/mess.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/p8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/pro9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/reg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/shoppy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/vis1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/vis2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/images/visit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/1920x1080/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x400/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x400/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x400/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x400/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x400/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x400/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x500/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x550/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x550/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/400x550/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/450x215/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/450x295/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/450x700/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/500x750/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/500x750/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x647/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x970/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x970/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x970/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/970x970/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/01-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/01-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/02-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/02-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/03-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/03-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/04-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/04-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/05-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/clients/05-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo-gold-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo-gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo-red-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/mockups/devices-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/mockups/iphone-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/mockups/iphone-03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/mockups/items-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/mockups/pencil-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/gmap/cd-icon-controller.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/gmap/cd-icon-location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/gmap/cd-icon-location.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/gmap2/cd-icon-controller.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/gmap2/cd-icon-location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/gmap2/cd-icon-location.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/img/widgets/worldmap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/include/media/fallback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/include/media/mp4_video.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/include/media/webm_video.webm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/bars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/chartinator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/circles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/circles.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/counter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/counter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/equal-height.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/equal-height.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/faq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/faq.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/google-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/google-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/google-map2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/google-map2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/header-sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/header-sticky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/magnific-popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/masonry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/masonry.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/portfolio-3-col.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/portfolio-3-col.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/portfolio-4-col-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/portfolio-4-col-slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/progress-bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/progress-bar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/scrollbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/swiper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/swiper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/tab.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/wow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/components/wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/global.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/gmaps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/jquery-2.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/jquery.magnific-popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/jquery.nicescroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/modernizr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/nivo-lightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/js/skycons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/base/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/base/_selection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/components/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/components/_clients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/components/_faq.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/components/_form-input.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/components/_icon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/global/_global-colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/global/_global-helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/global/_global-responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/global/_global-spacing.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/global/global/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_mockup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_plan.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_process.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_promo-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_scroll-to-section.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_team.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/gui/_video.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/layout/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/layout/_header-v2.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/layout/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_animation-delay.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_backface-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_background.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_before-after.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_child.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_container.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_cubic-transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_display-center.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_horizontal-center-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_hover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_keyframes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_overlay.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_perspective.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_placeholder.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_rotate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_selection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_stroke-dashoffset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_theme-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_transform-origin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_transform-scale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/mixins/_translate3d.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/theme/_gold.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/theme/_red.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/theme/gold.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/theme/red.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/theme/theme/_gold.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/theme/theme/_red.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/vendors/_back-to-top.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/vendors/_cubeportfolio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/vendors/_gmap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/scss/vendors/_swiper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/circles.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/cubeportfolio/css/cubeportfolio.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/cubeportfolio/img/cbp-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.appear.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.back-to-top.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.equal-height.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.smooth-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/jquery.wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/magnific-popup/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/magnific-popup/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/masonry/imagesloaded.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/masonry/jquery.masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/scrollbar/jquery.scrollbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/scrollbar/scrollbar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/swiper/swiper.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/swiper/swiper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/themify/fonts/themify.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/themify/fonts/themify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/themify/fonts/themify.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/themify/fonts/themify.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/themify/themify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/vidbg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/static/vendor/waypoint.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/templates/LOCPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/templates/MainHomePage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/templates/dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/templates/display.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/templates/offers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/templates/radio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/migrations/0002_auto_20171004_1926.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/migrations/0003_auto_20171004_2000.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/migrations/0004_auto_20171004_2007.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zephyr/trend_promotion/views.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Zephyr/FAQchatbot/__init__.py" afterPath="$PROJECT_DIR$/Zephyr/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Zephyr/Zephyr/settings.py" afterPath="$PROJECT_DIR$/Zephyr/settings.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Zephyr/Zephyr/urls.py" afterPath="$PROJECT_DIR$/Zephyr/urls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Zephyr/Zephyr/views.py" afterPath="$PROJECT_DIR$/Zephyr/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Zephyr/Zephyr/wsgi.py" afterPath="$PROJECT_DIR$/Zephyr/wsgi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/LOCPage.html" afterPath="$PROJECT_DIR$/templates/LOCPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style1.css" afterPath="$PROJECT_DIR$/static/css/style1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dashboard.html" afterPath="$PROJECT_DIR$/templates/dashboard.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,91 +409,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend_promotion/urls.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zephyr/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LOCPage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/LOCPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/display.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend_promotion/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepage/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FAQchatbot/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zephyr/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend_promotion/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="-1822">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,18 +422,34 @@
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9945">
-              <caret line="585" column="32" lean-forward="true" selection-start-line="585" selection-start-column="32" selection-end-line="585" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="184">
+              <caret line="784" column="3" lean-forward="true" selection-start-line="784" selection-start-column="3" selection-end-line="784" selection-end-column="3" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend_promotion/apps.py">
+      <file leaf-file-name="style1.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="370">
+              <caret line="4710" column="21" lean-forward="true" selection-start-line="4710" selection-start-column="21" selection-end-line="4710" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -169,7 +498,6 @@
         <option value="$PROJECT_DIR$/templates/radio.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/MainHomePage.html" />
-        <option value="$PROJECT_DIR$/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/Zephyr/views.py" />
         <option value="$PROJECT_DIR$/Homepage/views.py" />
         <option value="$PROJECT_DIR$/trend_promotion/urls.py" />
@@ -181,6 +509,8 @@
         <option value="$PROJECT_DIR$/trend_promotion/admin.py" />
         <option value="$PROJECT_DIR$/trend_promotion/models.py" />
         <option value="$PROJECT_DIR$/templates/LOCPage.html" />
+        <option value="$PROJECT_DIR$/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/static/css/style1.css" />
       </list>
     </option>
   </component>
@@ -245,20 +575,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="trend_promotion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zephyr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zephyr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -295,34 +611,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zephyr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zephyr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FAQchatbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zephyr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zephyr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -333,17 +621,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static\js" />
-      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static" />
-      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\templates" />
       <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static" />
       <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr" />
       <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static\assets\css" />
       <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static\vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\Zephyr" />
+      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static\js" />
+      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static" />
+      <recent name="C:\Users\SHOBHIT\Desktop\VistaraHackathon\Zephyr\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,19 +727,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -471,77 +759,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/scss/gui/_plan.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/gui/_plan.scss" />
     <entry file="file://$PROJECT_DIR$/templates/faq.html" />
     <entry file="file://$PROJECT_DIR$/templates/team.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/gui/_mockup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zephyr/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/global.js" />
+    <entry file="file://$PROJECT_DIR$/static/scss/gui/_mockup.scss" />
+    <entry file="file://$PROJECT_DIR$/Zephyr/settings.py" />
     <entry file="file://$PROJECT_DIR$/static/assets/css/animate.css" />
     <entry file="file://$PROJECT_DIR$/templates/about.html" />
     <entry file="file://$PROJECT_DIR$/static/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/Homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/vendor/swiper/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MainHomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepage/views.py" />
+    <entry file="file://$PROJECT_DIR$/static/vendor/swiper/swiper.min.css" />
+    <entry file="file://$PROJECT_DIR$/templates/radio.html" />
+    <entry file="file://$PROJECT_DIR$/templates/MainHomePage.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/bars.js" />
     <entry file="file://C:/Python34/Lib/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -554,197 +785,70 @@
     <entry file="file://$PROJECT_DIR$/static/vendor/flot/jquery.flot.categories.js" />
     <entry file="file://$PROJECT_DIR$/static/vendor/flot/jquery.js" />
     <entry file="file://$PROJECT_DIR$/static/assets/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/static/vendor/waypoint.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/vendor/waypoint.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/static/assets/css/global/global.css" />
-    <entry file="file://$PROJECT_DIR$/static/scss/gui/_plan.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/gui/_plan.scss" />
     <entry file="file://$PROJECT_DIR$/templates/faq.html" />
     <entry file="file://$PROJECT_DIR$/templates/team.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/gui/_mockup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/global.js" />
+    <entry file="file://$PROJECT_DIR$/static/scss/gui/_mockup.scss" />
     <entry file="file://$PROJECT_DIR$/static/assets/css/animate.css" />
     <entry file="file://$PROJECT_DIR$/templates/about.html" />
     <entry file="file://$PROJECT_DIR$/static/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/static/vendor/swiper/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/vendor/swiper/swiper.min.css" />
+    <entry file="file://$PROJECT_DIR$/templates/radio.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/bars.js" />
     <entry file="file://$PROJECT_DIR$/../../loc.py" />
-    <entry file="file://$PROJECT_DIR$/static/css/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11592">
-          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MainHomePage.html" />
+    <entry file="file://$PROJECT_DIR$/trend_promotion/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Homepage/views.py" />
+    <entry file="file://$PROJECT_DIR$/Zephyr/views.py" />
+    <entry file="file://$PROJECT_DIR$/static/css/style_display.css" />
+    <entry file="file://$PROJECT_DIR$/Zephyr/urls.py" />
+    <entry file="file://$PROJECT_DIR$/trend_promotion/views.py" />
+    <entry file="file://$PROJECT_DIR$/FAQchatbot/views.py" />
+    <entry file="file://$PROJECT_DIR$/templates/display.html" />
+    <entry file="file://$PROJECT_DIR$/trend_promotion/apps.py" />
+    <entry file="file://$PROJECT_DIR$/trend_promotion/admin.py" />
+    <entry file="file://$PROJECT_DIR$/trend_promotion/models.py" />
+    <entry file="file://$PROJECT_DIR$/templates/LOCPage.html" />
     <entry file="file://$PROJECT_DIR$/Zephyr/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MainHomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend_promotion/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zephyr/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style_display.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zephyr/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend_promotion/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FAQchatbot/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend_promotion/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1822">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend_promotion/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend_promotion/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9945">
-          <caret line="585" column="32" lean-forward="true" selection-start-line="585" selection-start-column="32" selection-end-line="585" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="184">
+          <caret line="784" column="3" lean-forward="true" selection-start-line="784" selection-start-column="3" selection-end-line="784" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/LOCPage.html">
+    <entry file="file://$PROJECT_DIR$/static/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="370">
+          <caret line="4710" column="21" lean-forward="true" selection-start-line="4710" selection-start-column="21" selection-end-line="4710" selection-end-column="21" />
           <folding />
         </state>
       </provider>
