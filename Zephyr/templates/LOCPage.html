@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>body {
+  padding: 20px;
+  background-color:#ffffc9
+}
+
+p { margin : 0; }
+</style>
+
+    <script type="text/javascript">
+
+
+        function geoFindMe() {
+
+if (confirm("Press a button!") == true) {
+        if (!navigator.geolocation){
+
+    return;
+  }
+
+  function success(position) {
+    var latitude  = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    var data = {lat:latitude, long:longitude};
+    $.post('{% url 'trend_promotion:store_loc' %}',data);
+  }
+
+
+
+  function error() {
+
+  }
+
+navigator.geolocation.getCurrentPosition(success, error);
+  setInterval(geoFindMe, 60000)
+
+    } else {
+
+    }
+
+}
+
+    </script>
+</head>
+<body>
+
+<p><button onclick="geoFindMe()">Please click the following button to allow to track my location</button></p>
+<div id="out"></div>
+</body>
+</html>
