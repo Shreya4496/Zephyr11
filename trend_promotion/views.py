@@ -40,9 +40,6 @@ def store_location(request):
 
 
 
-
-
-"""
 def new_func(request):
     CONSUMER_KEY = 'fX5oAGHDPAvu6MGdOJpBVMg6m'
     CONSUMER_SECRET = 'KxVWhnFOHBiaQUAOAHXBeTZOaeEk0H9eHCwCX55a4V6RNYrIbP'
@@ -130,6 +127,7 @@ def getEvents(request):
         print response.json()['events'][0]['name']['text'], ", ", response.json()['events'][0]['start']['timezone']
         print
         print response.json()['events'][4]['name']['text'], ", ", response.json()['events'][0]['start']['timezone']
+
 def abc(request):
     TWITTER_CONSUMER_KEY = 'fX5oAGHDPAvu6MGdOJpBVMg6m'
     TWITTER_CONSUMER_SECRET = 'KxVWhnFOHBiaQUAOAHXBeTZOaeEk0H9eHCwCX55a4V6RNYrIbP'
@@ -138,7 +136,7 @@ def abc(request):
 
     # This is the twitter user that we will be profiling using our news classifier.
     # TWITTER_USER = 'raulgarreta'
-    TWITTER_USER = 'Shreya96Gupta'
+    TWITTER_USER = 'NSaina'
 
     ### Get user data with Twitter API
 
@@ -155,14 +153,14 @@ def abc(request):
 
     def get_friends_descriptions(api, twitter_account, max_users=100):
         """
-"""
+
         Return the bios of the people that a user follows
 
         api -- the tweetpy API object
         twitter_account -- the Twitter handle of the user
         max_users -- the maximum amount of users to return
         """
-""""
+
 
         user_ids = api.friends_ids(twitter_account)
         shuffle(user_ids)
@@ -258,4 +256,4 @@ def abc(request):
         finalList.append(str(response.json()['events'][1]['name']['text'].encode('utf8'))+", "+str(response.json()['events'][1]['start']['timezone'].encode('utf8')))
 
     return JsonResponse(finalList,safe=False)
-"""
+    #return render(request, 'trends.html', {'finalList':finalList})
