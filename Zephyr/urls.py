@@ -18,7 +18,8 @@ from django.contrib import admin
 from Homepage.views import *
 from Zephyr.views import *
 from FAQchatbot.views import *
-from trend_promotion.views import abc
+from realtime_feedback.views import *
+#from trend_promotion.views import abc
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^homepage/$', HomePage, name='homepage'),
@@ -27,12 +28,17 @@ url(r'^locpage/$', LOC, name='homepage'),
 url(r'^trend_promotion/',include('trend_promotion.urls',namespace="trend_promotion")),
 url(r'^chatbot/$', ChatBot, name='homepage'),
 url(r'^offers/$', Offers, name='offers'),
-url(r'^trend_promotion/',abc),
-#url(r'^trips_all/$', trips_all, name='trips_all'),
+#url(r'^trend_promotion/',abc),
+url(r'^trips_all/$', trips_all, name='trips_all'),
+    url(r'^realtime_feedback/$', newUpdate, name='preferences'),
 
+url(r'^profile/$', Profile, name='offers'),
 
-
-
+url(r'^login/$', Login, name='login'),
+url(r'^register/$', register, name='register'),
+    url(r'^logout/$', Logout, name='logout'),
+    url(r'^complaint/$', complaint_new, name='complaint_new'),
+    url(r'^preferences/$', Pref, name='preferences'),
 
 #url(r'^offers/$', Offers, name='offers'),
 

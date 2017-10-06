@@ -31,14 +31,18 @@ class Flight(models.Model):
     gateno=models.CharField(max_length=50)
 
 
-class Preferences(models.Model):
+class pref(models.Model):
     user_name=models.ForeignKey(User, on_delete=models.CASCADE)
-    pnr=models.ForeignKey(FlightStatus, on_delete=models.CASCADE)
-    cat1=models.CharField(max_length=50)
-    cat2=models.CharField(max_length=50)
-    cat3=models.CharField(max_length=50)
-    cat4=models.CharField(max_length=50)
-    cat5=models.CharField(max_length=50)
+    #pnr=models.ForeignKey(FlightStatus, on_delete=models.CASCADE)
+    window=models.CharField(max_length=50)
+    recliner=models.CharField(max_length=50)
+    leg=models.CharField(max_length=50)
+    neck=models.CharField(max_length=50)
+    cushion=models.CharField(max_length=50)
+    veg = models.CharField(max_length=50)
+    nonveg = models.CharField(max_length=50)
+    special_pref=models.CharField(max_length=500)
+    payment=models.CharField(max_length=50)
 
 
 class Complaint(models.Model):
@@ -54,5 +58,14 @@ class Location(models.Model):
     lat = models.DecimalField(max_digits=9, decimal_places=6)
     long = models.DecimalField(max_digits=9, decimal_places=6)
 
+
+
+class MyFlights(models.Model):
+    user_name = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
+    linked_no = models.ForeignKey(Flight, on_delete=models.CASCADE, default=2)
+    trip_date= models.DateTimeField(auto_now=False,auto_now_add=False)
+    from_loc=models.CharField(max_length=100)
+    to_loc=models.CharField(max_length=100)
+    status=models.CharField(max_length=100)
 
 

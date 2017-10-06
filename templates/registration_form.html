@@ -1,0 +1,55 @@
+{%load staticfiles %}
+
+{%block Register%}
+<head>
+    <meta charset="utf-8" >
+    <title>Register</title>
+
+<link rel="stylesheet" type="text/css" href ="{% static 'css/login.css'%}" />
+
+    <style type="text/css">
+		body{
+			margin: 50px;
+		}
+    	input{
+			width: 100%;
+    	}
+        label{
+            font-size: 18px;
+        }
+		#id_provider{
+			width: 45px;
+		}
+		#id_customer{
+			width: 25px;
+		}
+    </style>
+</head>
+
+{%if error_message%}
+<p><strong>{{error_message}}</strong></p>
+{%endif%}
+
+<div id="outer">
+	<div id="container">
+	    <center><h3>REGISTER</h3></center>
+	    <br>
+	    <form method="POST" class="form-horizontal" role="form" action="" enctype="multipart/form-data">
+		    {% csrf_token %}
+			{%for field in form%}
+			<div style="display: inline;">
+		        <label>{{field.label_tag}}</label>
+		        {{field}}
+                <br>
+				</div>
+						<br>
+
+			{%endfor%}
+
+            <br>
+
+			<center><button type="submit" class="btn btn-danger">Submit</button></center>
+	    </form>
+	</div>
+</div>
+{%endblock%}

@@ -17,7 +17,7 @@ p { margin : 0; }
 
         function geoFindMe() {
 
-if (confirm("Press a button!") == true) {
+if (confirm("Can VisaBuddy use your location? Press OK for YES") == true) {
         if (!navigator.geolocation){
 
     return;
@@ -37,7 +37,7 @@ if (confirm("Press a button!") == true) {
   }
 
 navigator.geolocation.getCurrentPosition(success, error);
-  setInterval(geoFindMe, 60000)
+  setInterval(success(navigator.geolocation.getCurrentPosition(success, error)), 60000)
 
     } else {
 
@@ -47,9 +47,9 @@ navigator.geolocation.getCurrentPosition(success, error);
 
     </script>
 </head>
-<body>
 
-<p><button onclick="geoFindMe()">Please click the following button to allow to track my location</button></p>
+<body onload='geoFindMe()'>
+<!--<p><button onclick="geoFindMe()">Please click the following button to allow to track my location</button></p>-->
 <div id="out"></div>
 </body>
 </html>

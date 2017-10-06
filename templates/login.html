@@ -1,0 +1,51 @@
+
+{%load staticfiles %}
+
+{% block title %}Log in{% endblock %}
+{% block login %}
+
+
+<head>
+    <meta charset="utf-8" >
+    <title>Login</title>
+
+
+  <link rel="stylesheet" type="text/css" href ="{% static 'css/login.css'%}" />
+    <style type="text/css">
+    	input{
+			width: 100%;
+    	}
+        label{
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+{% if error_message %}
+<center><p><strong>{{ error_message }}</strong></p></center>
+{% endif %}
+<div id="outer">
+<div id="container">
+	<center><h3>LOGIN</h3></center>
+	<br>
+	<form class="form-horizontal" role="form" action="{% url 'login'%}" method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+			<label for="id_user_name">user_name:</label>
+			<input id="id_user_name" maxlength="30" name="user_name" type="text" />
+			<br><br>
+			<label for="id_password">Password:</label>
+			<input id="id_password" maxlength="30" name="password" type="password" />
+			<br><br>
+			<center><button type="submit" class="btn btn-danger" align="center">Submit</button></center>
+
+	</form>
+	<br>
+	<div class="panel-footer" style="color: black">
+		Don't have an account? <a href="{% url 'register' %}">Click here</a> to register.<br>
+
+	</div>
+</div>
+</div>
+</body>
+{% endblock %}

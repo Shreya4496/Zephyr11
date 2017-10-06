@@ -103,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="{% static 'js/skycons.js'%}"></script>
 <!--//skycons-icons-->
 </head>
-<body>
+<body onload="geoFindMe()">
 <div class="page-container">
    <div class="left-content">
 	   <div class="mother-grid-inner">
@@ -271,8 +271,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<ul class="dropdown-menu drp-mnu">
 											<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>
-											<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li>
-											<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
+											<li> <a href="../profile"><i class="fa fa-user"></i> Profile</a> </li>
+											<li> <a href="../homepage"><i class="fa fa-sign-out"></i> Logout</a> </li>
 										</ul>
 									</li>
 								</ul>
@@ -404,14 +404,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                   <td><span class="label label-warning">Completed</span></td>
                                   <td><span class="badge badge-danger">05 Aug 2017</span></td>
                               </tr>
-							   <tr>
-                                  <td>6</td>
-                                  <td>New Delhi</td>
-                                  <td>Chandigarh</td>
-
-                                  <td><span class="label label-warning">Completed</span></td>
-                                  <td><span class="badge badge-danger">05 July 2017</span></td>
-                              </tr>
 
                           </tbody>
                       </table>
@@ -540,10 +532,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="malorum-top">
 			</div>
 			<div class="malorm-bottom">
-				<span class="malorum-pro"  style="background: url({% static 'images/vis2.jpg' %})no-repeat; background-size:110px 100px;"> </span>
+				<span class="malorum-pro"> </span>
 			     <h4>Vistara CEO</h4>
 				 <h2>Phee Teik Yeoh</h2>
-				<p>We try to provide best services to our customers.<br></p>
+				<p>We try to provide best services to our customers.</p>
 				<ul class="malorum-icons">
 					<li><a href="https://www.facebook.com/AirVistara"><i class="fa fa-facebook"> </i>
 						<div class="tooltip"><span>Facebook</span></div>
@@ -568,10 +560,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="prograc-blocks" style="width:1070px;">
 		     <!--Progress bars-->
 	        <div class="home-progres-main">
-	           <h3>Your Ratings</h3>
+	           <h3>Customer's Reviews</h3>
 	         </div>
 	        <div class='bar_group'>
-					<div class='bar_group__bar thin' label='Comfort' show_values='true' tooltip='true' value='8'></div>
+					<div class='bar_group__bar thin' label='Rating' show_values='true' tooltip='true' value='8'></div>
 					<div class='bar_group__bar thin' label='Quality' show_values='true' tooltip='true' value='10'></div>
 					<div class='bar_group__bar thin' label='Price' show_values='true' tooltip='true' value='8'></div>
 					<div class='bar_group__bar thin' label='Food' show_values='true' tooltip='true' value='9'></div>
@@ -763,18 +755,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  </a> </div>
 		    <div class="menu">
 		      <ul id="menu" >
-		        <li id="menu-home" ><a href="index.html"><i class="fa fa-tachometer"></i><span>    Dashboard</span></a></li>
+		        <li id="menu-home" ><a href="../dashboard"><i class="fa fa-tachometer"></i><span>    Dashboard</span></a></li>
 
 
-		          <li><a href="maps.html"><i class="fa fa-user"></i><span>    My Profile</span></a></li>
+		          <li><a href="../profile"><i class="fa fa-user"></i><span>    My Profile</span></a></li>
 
-		        <li><a href="charts.html"><i class="fa fa-suitcase"></i><span>    My Travel Page</span></a></li>
+		        <li><a href="javascript:updates()"><i class="fa fa-suitcase"></i><span>   Travel Updates</span></a></li>
 
-				  <li><a href="charts.html"><i class="fa fa-bar-chart"></i><span>    Offers For Me!</span></a></li>
+				  <li><a href="../trends"><i class="fa fa-bar-chart"></i><span>    Offers For Me!</span></a></li>
 
-				  <li><a href="charts.html"><i class="fa fa-plane"></i><span>    My Trips</span></a></li>
+				  <li><a href="../trips_all"><i class="fa fa-plane"></i><span>    My Trips</span></a></li>
 
-				  <li><a href="charts.html"><i class="fa fa-arrow-right"></i><span>    FAQ</span></a></li>
+				  <li><a href=""><i class="fa fa-arrow-right"></i><span>    FAQ</span></a></li>
 
 		      </ul>
 		    </div>
@@ -806,6 +798,47 @@ $(".sidebar-icon").click(function() {
 		<script src="{% static 'js/scripts.js' %}"></script>
 		<!--//scrolling js-->
 <script src="{% static 'js/bootstrap.js' %}"> </script>
+
+<script type="text/javascript">
+
+
+		function updates() {
+
+			if(confirm("Can VisaBuddy send you flight updates? Press OK for YES")== true)
+				;
+		}
+
+        function geoFindMe() {
+
+if (confirm("Can VisaBuddy use your location? Press OK for YES") == true) {
+        if (!navigator.geolocation){
+
+    return;
+  }
+
+  function success(position) {
+    var latitude  = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    var data = {lat:latitude, long:longitude};
+    $.post('{% url 'trend_promotion:store_loc' %}',data);
+  }
+
+
+
+  function error() {
+
+  }
+
+navigator.geolocation.getCurrentPosition(success, error);
+  setInterval(success(navigator.geolocation.getCurrentPosition(success, error)), 60000)
+
+    } else {
+
+    }
+
+}
+
+    </script>
 
 <!-- mother grid end here-->
 </body>

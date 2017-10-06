@@ -1,0 +1,29 @@
+
+
+{% block content %}
+<form action="/preferences/" method="post" accept-charset="utf-8"">
+    {% csrf_token %}
+
+    USER NAME: <input type="text" name="user_name"><br>
+    <fieldset>
+    <legend>Seat Preferenes:</legend>
+     <input type="radio" name="window"> Window Seat<br>
+        <input type="radio" name="recliner"> Recliner<br>
+        <input type="radio" name="leg"> Extra Leg Space<br>
+		<input type="radio" name="neck"> Neck Rest<br>
+		<input type="radio" name="cushion"> Cushion<br>
+    </fieldset>
+    <fieldset>
+    <legend>Food Preferenes:</legend>
+     <input type="radio" name="veg"> Vegetarian<br>
+        <input type="radio" name="nonveg"> Non-Vegetarian<br>
+
+    </fieldset>
+    Any other preferences: (Extra charges may be applied during boarding) <br>
+	<input type="text" name="special_pref"><br>
+     <input type = "submit" name="submit">
+
+
+</form>
+
+{% endblock %}

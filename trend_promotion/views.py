@@ -2,8 +2,8 @@ from __future__ import unicode_literals
 import sys
 from imp import reload
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
@@ -11,7 +11,7 @@ import requests
 from rest_framework.response import Response
 from django.http import JsonResponse
 import json
-from urllib2 import urlopen
+#from urllib2 import urlopen
 from twitter import Twitter,OAuth
 import tweepy
 import time
@@ -22,6 +22,7 @@ from .models import Location
 # Create your views here.
 
 @csrf_exempt
+
 def store_location(request):
     print('yoyoyo')
     if request.method == 'POST' and request.is_ajax():
@@ -41,7 +42,7 @@ def store_location(request):
 
 
 
-
+"""
 def new_func(request):
     CONSUMER_KEY = 'fX5oAGHDPAvu6MGdOJpBVMg6m'
     CONSUMER_SECRET = 'KxVWhnFOHBiaQUAOAHXBeTZOaeEk0H9eHCwCX55a4V6RNYrIbP'
@@ -129,7 +130,6 @@ def getEvents(request):
         print response.json()['events'][0]['name']['text'], ", ", response.json()['events'][0]['start']['timezone']
         print
         print response.json()['events'][4]['name']['text'], ", ", response.json()['events'][0]['start']['timezone']
-
 def abc(request):
     TWITTER_CONSUMER_KEY = 'fX5oAGHDPAvu6MGdOJpBVMg6m'
     TWITTER_CONSUMER_SECRET = 'KxVWhnFOHBiaQUAOAHXBeTZOaeEk0H9eHCwCX55a4V6RNYrIbP'
@@ -155,12 +155,14 @@ def abc(request):
 
     def get_friends_descriptions(api, twitter_account, max_users=100):
         """
+"""
         Return the bios of the people that a user follows
 
         api -- the tweetpy API object
         twitter_account -- the Twitter handle of the user
         max_users -- the maximum amount of users to return
         """
+""""
 
         user_ids = api.friends_ids(twitter_account)
         shuffle(user_ids)
@@ -256,3 +258,4 @@ def abc(request):
         finalList.append(str(response.json()['events'][1]['name']['text'].encode('utf8'))+", "+str(response.json()['events'][1]['start']['timezone'].encode('utf8')))
 
     return JsonResponse(finalList,safe=False)
+"""
