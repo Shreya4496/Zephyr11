@@ -16,3 +16,8 @@ def Offers(request):
 
 def ChatBot(request):
     return render(request, 'chatbot.html')
+
+def service_all(request):
+    posts = Service.objects.all()
+    print (posts)
+    return render(request, "list.html", {'posts': posts})

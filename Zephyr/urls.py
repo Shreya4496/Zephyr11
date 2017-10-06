@@ -25,5 +25,6 @@ url(r'^dashboard/$', DashBoard, name='homepage'),
 url(r'^locpage/$', LOC, name='homepage'),
 url(r'^trend_promotion/',include('trend_promotion.urls',namespace="trend_promotion")),
 url(r'^chatbot/$', ChatBot, name='homepage'),
-    url(r'^offers/$', Offers, name='offers'),
+url(r'^offers/$', Offers, name='offers'),
+url(r'^trips_all/$', trips_all, name='trips_all'),
 ]
