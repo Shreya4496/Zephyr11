@@ -17,29 +17,32 @@ from django.conf.urls import url,include
 from django.contrib import admin
 from Homepage.views import *
 from Zephyr.views import *
-from FAQchatbot.views import *
-from realtime_feedback.views import *
-from trend_promotion.views import abc
+
+from trend_promotion.views import abc, potList, nonVUser
+from local_promo.views import local_trends
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^homepage/$', HomePage, name='homepage'),
 url(r'^dashboard/$', DashBoard, name='homepage'),
-url(r'^locpage/$', LOC, name='homepage'),
-url(r'^trend_promotion/',abc),
+
+#url(r'^trend_promotion/',abc),
 #url(r'^trend_promotion/',include('trend_promotion.urls',namespace="trend_promotion")),
-url(r'^chatbot/$', ChatBot, name='homepage'),
+url(r'^trend_promotion/',abc),
+url(r'^local_trendpromo/', local_trends),
+url(r'^potential_offers/', potList),
+url(r'^nonVUser/', nonVUser),
 url(r'^offers/$', Offers, name='offers'),
 
 url(r'^trips_all/$', trips_all, name='trips_all'),
-    url(r'^realtime_feedback/$', newUpdate, name='preferences'),
+   # url(r'^realtime_feedback/$', newUpdate, name='preferences'),
 
 url(r'^profile/$', Profile, name='offers'),
 
 url(r'^login/$', Login, name='login'),
 url(r'^register/$', register, name='register'),
-    url(r'^logout/$', Logout, name='logout'),
-    url(r'^complaint/$', complaint_new, name='complaint_new'),
-    url(r'^preferences/$', Pref, name='preferences'),
+url(r'^logout/$', Logout, name='logout'),
+
 
 #url(r'^offers/$', Offers, name='offers'),
 

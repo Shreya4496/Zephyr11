@@ -1,5 +1,7 @@
 {% load staticfiles %}
 <html>
+{% block content %}
+{% endblock %}
 <style>
 	body{
 	overflow:auto;
@@ -108,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <div class="left-content">
 	   <div class="mother-grid-inner">
             <!--header start here-->
-				<div class="header-main" style="background-color:#343a40;">
+				<div class="header-main" style="background-color:#343a40;height:75px">
 					<div class="header-left">
 							<div class="logo-name">
 									 <a href="dashboard.html"> <h1 style="width:500px; ">Vistara Buddy</h1>
@@ -120,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						 </div>
 						 <div class="header-right">
 							<div class="profile_details_left"><!--notifications of menu start -->
-								<ul class="nofitications-dropdown">
+							<!--	<ul class="nofitications-dropdown">
 									<li class="dropdown head-dpdn">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-envelope"></i><span class="badge">3</span></a>
 										<ul class="dropdown-menu">
@@ -130,9 +132,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</div>
 											</li>
 											<li><a href="#">
-											   <div class="user_img"><img src="{% static 'images/p4.png' %}" alt=""></div>
-											   <div class="notification_desc">
-												<p>Lorem ipsum dolor</p>
+											 <!--  <div class="user_img"><img src="{% static 'images/p4.png' %}" alt=""></div>-->
+										<!--	   <div class="notification_desc">
+												<p></p>
 												<p><span>1 hour ago</span></p>
 												</div>
 											   <div class="clearfix"></div>
@@ -140,16 +142,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<li class="odd"><a href="#">
 												<div class="user_img"><img src="{% static 'images/p2.png' %}" alt=""></div>
 											   <div class="notification_desc">
-												<p>Lorem ipsum dolor </p>
-												<p><span>1 hour ago</span></p>
+												<p>Avail New Offers</p>
+												<p><span>2 hour ago</span></p>
 												</div>
 											  <div class="clearfix"></div>
 											</a></li>
 											<li><a href="#">
 											   <div class="user_img"><img src="{% static 'images/p3.png' %}" alt=""></div>
 											   <div class="notification_desc">
-												<p>Lorem ipsum dolor</p>
-												<p><span>1 hour ago</span></p>
+												<p>New Alert</p>
+												<p><span>3 hour ago</span></p>
 												</div>
 											   <div class="clearfix"></div>
 											</a></li>
@@ -160,6 +162,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											</li>
 										</ul>
 									</li>
+								-->
 									<li class="dropdown head-dpdn">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">3</span></a>
 										<ul class="dropdown-menu">
@@ -404,6 +407,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                   <td><span class="label label-warning">Completed</span></td>
                                   <td><span class="badge badge-danger">05 Aug 2017</span></td>
                               </tr>
+							   <tr>
+                                  <td>6</td>
+                                  <td>New Delhi</td>
+                                  <td>Nagpur</td>
+
+                                  <td><span class="label label-warning">Completed</span></td>
+                                  <td><span class="badge badge-danger">01 Aug 2017</span></td>
+                              </tr>
+							   <tr>
+                                  <td>7</td>
+                                  <td>New Delhi</td>
+                                  <td>Nagpur</td>
+
+                                  <td><span class="label label-warning">Completed</span></td>
+                                  <td><span class="badge badge-danger">27 July 2017</span></td>
+                              </tr>
 
                           </tbody>
                       </table>
@@ -415,80 +434,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<section id="charts1" class="charts">
 				<div class="wrapper-flex">
 
-				    <table id="myTable" class="geoChart tableChart data-table col-table" style="display:none;">
-				        <caption>Student Nationalities Table</caption>
-				        <tr>
-				            <th scope="col" data-type="string">Country</th>
-				            <th scope="col" data-type="number">Number of Students</th>
-				            <th scope="col" data-role="annotation">Annotation</th>
-				        </tr>
-				        <tr>
-				            <td>China</td>
-				            <td align="right">20</td>
-				            <td align="right">20</td>
-				        </tr>
-				        <tr>
-				            <td>Colombia</td>
-				            <td align="right">5</td>
-				            <td align="right">5</td>
-				        </tr>
-				        <tr>
-				            <td>France</td>
-				            <td align="right">3</td>
-				            <td align="right">3</td>
-				        </tr>
-				        <tr>
-				            <td>Italy</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Japan</td>
-				            <td align="right">18</td>
-				            <td align="right">18</td>
-				        </tr>
-				        <tr>
-				            <td>Kazakhstan</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Mexico</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Poland</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Russia</td>
-				            <td align="right">11</td>
-				            <td align="right">11</td>
-				        </tr>
-				        <tr>
-				            <td>Spain</td>
-				            <td align="right">2</td>
-				            <td align="right">2</td>
-				        </tr>
-				        <tr>
-				            <td>Tanzania</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Turkey</td>
-				            <td align="right">2</td>
-				            <td align="right">2</td>
-				        </tr>
 
-				    </table>
 
-				    <div class="col geo_main">
-				         <h3 id="geoChartTitle">Vistara Cities</h3>
-				        <div id="geoChart" class="chart"> </div>
-				    </div>
+				         <h3 id="geoChartTitle" style+>Vistara Cities</h3>
+                         <img src="{% static 'images/map.png' %}" style="height:700 px; width:500px"></img>
+
 
 
 				</div><!-- .wrapper-flex -->
@@ -512,7 +462,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             datasets : [
                                 {
                                     fillColor : "#DA70D6",
-                                    data : [5,2,1,0,0,3,0,0,2,4,1,1]
+                                    data : [5,2,1,0,0,3,2,1,2,0,1,1]
                                 }/*,
                                 {
                                     fillColor : "#337AB7",
@@ -762,11 +712,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		        <li><a href="javascript:updates()"><i class="fa fa-suitcase"></i><span>   Travel Updates</span></a></li>
 
-				  <li><a href="../trends"><i class="fa fa-bar-chart"></i><span>    Offers For Me!</span></a></li>
+				  <li><a href="../trend_promotion"><i class="fa fa-bar-chart"></i><span>    Offers For Me!</span></a></li>
 
 				  <li><a href="../trips_all"><i class="fa fa-plane"></i><span>    My Trips</span></a></li>
 
-				  <li><a href=""><i class="fa fa-arrow-right"></i><span>    FAQ</span></a></li>
+				  <!--<li><a href=""><i class="fa fa-arrow-right"></i><span>    FAQ</span></a></li>-->
 
 		      </ul>
 		    </div>
@@ -820,7 +770,7 @@ if (confirm("Can VisaBuddy use your location? Press OK for YES") == true) {
     var latitude  = position.coords.latitude;
     var longitude = position.coords.longitude;
     var data = {lat:latitude, long:longitude};
-    $.post('{% url 'trend_promotion:store_loc' %}',data);
+
   }
 
 

@@ -13,7 +13,7 @@ from django.contrib.auth import authenticate, logout, login
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 
 from django.http import HttpResponse
-from Zephyr.forms import UserForm, ComplaintForm
+from Zephyr.forms import UserForm
 from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.models import User
 import smtplib
@@ -53,22 +53,27 @@ def Login(request):
     if request.method == "POST":
         user_name = request.POST['user_name']
         password = request.POST['password']
-        user = authenticate(user_name=user_name, password=password)
-        u= User.objects.all().order_by('?')[:5]
+        #user = authenticate(user_name=user_name, password=password)
+        #u= User.objects.all().order_by('?')[:5]
 
-        context = {
-            'u' : u
-        }
-        if user is not None:
-            if user.is_active():
-                login(request, user)
-                return redirect('dashboard.html')
-            else:
-                return render(request, 'login.html', {'error_message': 'Your account has been disabled'})
-        else:
-                return render(request, 'login.html', {'error_message': 'Invalid login'})
-    return render(request, 'login.html')
-   # return render(request, self.template_name, {'form': form})
+        #context = {
+        #    'u' : u
+        #}
+        #if user is not None:
+        #    if user.is_active():
+        #        login(request, user)
+        #        return redirect('dashboard.html')
+
+        #    else:
+
+
+    return render(request, 'dashboard.html', {'form': form})
+            #    return render(request, 'login.html', {'error_message': 'Your account has been disabled'})
+    #else:
+    #    return redirect('./dashboard.html')
+        #        return render(request, 'login.html', {'error_message': 'Invalid login'})
+    #return render(request, 'login.html')
+       # return render(request, self.template_name, {'form': form})
 
 
 #CHANGE PASSWORD
@@ -159,38 +164,3 @@ def LOC(request):
 
 def Offers(request):
     return render(request, 'offers.html')
-
-def Pref(request):
-
-    if request.method == 'POST':
-
-      list=pref()
-      usern = request.POST.get('user_name')
-      try:
-        uobj=User.objects.get(user_name=usern)
-      except ObjectDoesNotExist:
-        return JsonResponse("none", safe=False)
-      list.user_name = uobj
-      list.window = request.POST.get('window')
-      list.recliner = request.POST.get('recliner')
-      list.leg = request.POST.get('leg')
-      list.neck = request.POST.get('neck')
-      list.cushion = request.POST.get('cushion')
-      list.veg = request.POST.get('veg')
-      list.nonveg = request.POST.get('nonveg')
-      list.special_pref = request.POST.get('special_pref')
-      list.payment = 290
-      list.save()
-    return render(request, 'preferences.html', {'error_message': 'Preferences Updated!'})
-
-def complaint_new(request):
-    if request.method == "POST":
-        form = ComplaintForm(request.POST)
-        if form.is_valid():
-            data = form.save(commit=False)
-            # data.username = request.session.get('username')
-            data.save()
-            return render(request, 'done.html')
-    else:
-        form = ComplaintForm()
-    return render(request, 'complaint_new.html', {'form': form})
